@@ -1,0 +1,21 @@
+body{ background-color: aquamarine;
+    font: normal 15 pt arial;
+
+}
+header{
+    color: aliceblue;
+    text-align: center;
+
+}
+section{
+background-color: aliceblue;
+border-radius: 10px;
+padding: 50px;
+width: auto;
+box-shadow: 5px px 10px rgb(73, 35, 35);
+}
+footer{
+    color: beige;
+    text-align: center;
+    font-style: italic;
+}
