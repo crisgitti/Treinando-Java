@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<script src="formulario.js"></script>
+
+<body onload="valida"> 
+
+    <h2>Preencha informações de contato:</h2>
+    <h1>&#128512;</h1>
+    
+    <form id="contato" action=  "www.impacta.com.br" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" ><br>
+        <br>
+        <label for="tel">Telefone</label>
+        <input type="text" id="tel"><br>
+        <br>
+        <label for="curso">Curso</label>
+        <select name="curso" id="curso"><br>
+            <option value="1">Selecione</option>
+            <option value="2">Java</option>
+            <option value="3">CSS</option>
+            <option value="4">HTML</option>
+            <option value="5">Javascript</option>
+        </select><br>
+        <br>
+        <label for="testar">Testar</label>
+        <input type="button" id="envio" value="testar"><br>     
+        
+    </form>
+</body>
+</html>
