@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cliqueaqui</title>
+</head>
+
+<body>
+    <h1 id="a" onclick=" nov()">Clique em MiM!</h1>
+    <h1 id="b">"Isso ai!</h1>
+    <button type="button" onclick='document.getElementById("b").innerHTML = "Agora Simmm!"'>Click Aqui!</button>
+    <button type="button" onclick='document.getElementById("b").style.display="none"'> "Vamos apagar!"</button>
+    <hr>
+    <h3>Horario</h3>
+    
+    <button onclick="this.innerHTML = Date()">Horario</button>
+
+    
+    <script>
+        window.onclick = myFunction;
+
+        function myFunction() {
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
+        alert("Obrigada")
+}
+    </script>
+</body>
+</html>

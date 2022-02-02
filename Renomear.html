@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relogio</title>
+    <script>
+        window.onload=function(){
+        setTimeout(cor,1000);
+        setTimeout(core,2000);
+        horas();
+        setInterval(horas,1000)
+
+        }
+
+        function cor() 
+        {
+            document.getElementById("t").style.backgroundColor="blue";
+            
+        }
+        function core(){
+            document.getElementById("t").style.backgroundColor="green";
+            document.getElementById("t").style.backgroundColor="purple";
+        }
+        function horas()
+        {
+        var d = new Date();
+        var relogio =d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+        document.getElementById("h").innerHTML = relogio;
+        }
+       
+        </script>
+</head>
+
+<body>
+    <h1 id="t">Relógio:</h1>
+    <hr>
+
+    <div id="h">00:00:00</div>
+    
+      
+</body>
+
+</html>
